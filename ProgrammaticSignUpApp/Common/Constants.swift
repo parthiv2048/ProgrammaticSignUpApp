@@ -17,6 +17,12 @@ enum ViewControllerIdentifiers: String {
     case SentEmailVC = "SentEmailVC"
 }
 
+// MARK: Table View Cell IDs
+
+enum TableViewCellIdentifiers: String {
+    case UserMessagesCell = "UserMessagesCell"
+}
+
 // MARK: Constraint Constants
 
 enum ConstraintConstants: Int {
