@@ -1,16 +1,17 @@
-# Onboarding Flow App
+# Programmatic Sign Up App
 
 ## About
-This is an iOS app meant to replicate the Onboarding UI from a mockup.
+This iOS app recreates a standard Sign In / Sign Up / Forgot Password flow completely programmatically, without using Storyboards
 
 ## Tech Stack
 - Swift
 - UIKit
-- Storyboards
 - XCode version 26.2
 
 ## Features
-This app has 3 screens connected by a navigation controller -
-- User Information screen with text fields for Username and Name
-- Profile Image selection screen (this screen doesn't have the Image picker yet)
-- Turn On Notifications screen
+- Sign In screen, which takes you tothe  Home screen that displays your entered name
+- Sign Up screen, which allows you to enter more details
+- Forgot Password and Sent Email screen, which recreates a Forgot Password flow
+
+## Demo
+![](./ProgrammaticSignUpApp_Demo.gif)
